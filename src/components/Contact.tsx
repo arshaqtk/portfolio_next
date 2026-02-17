@@ -114,15 +114,15 @@ export function Contact() {
                 <div className="contact-item">
                     <p className="text-sm font-medium opacity-50 uppercase tracking-widest mb-2">Email Me</p>
                     <a href="mailto:hello@arshaq.dev" className="text-xl font-bold hover:text-blue-500 transition-colors">
-                        hello@arshaq.dev
+                        arshaqtk4@gmail.com
                     </a>
                 </div>
                 <div className="contact-item flex gap-12">
                     <div>
                         <p className="text-sm font-medium opacity-50 uppercase tracking-widest mb-2">Socials</p>
                         <div className="flex gap-6">
-                            <a href="#" className="font-bold hover:text-blue-500 transition-colors">GitHub</a>
-                            <a href="#" className="font-bold hover:text-blue-500 transition-colors">LinkedIn</a>
+                            <a href="https://github.com/arshaqtk" className="font-bold hover:text-blue-500 transition-colors">GitHub</a>
+                            <a href="muhammed-arshaq-tk-b96911269" className="font-bold hover:text-blue-500 transition-colors">LinkedIn</a>
                             <a href="#" className="font-bold hover:text-blue-500 transition-colors">Twitter</a>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ const projects = [
             "MongoDB data modeling",
             "Scalable design"
         ],
-        links: { live: "#", github: "#" },
+        links: { live: "https://career-sync-ten.vercel.app", github: "https://github.com/arshaqtk/Career-sync-backend" },
         gradient: "from-blue-600 to-cyan-500",
     },
     {
@@ -31,7 +31,7 @@ const projects = [
             "Database integration",
             "MVC architecture"
         ],
-        links: { live: "#", github: "#" },
+        links: { live: "https://bitezzo-three.vercel.app", github: "https://github.com/arshaqtk/Bitezzo_Backend" },
         gradient: "from-orange-600 to-red-500",
     },
 ];
