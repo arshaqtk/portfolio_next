@@ -69,7 +69,7 @@ export function Hero() {
                     ref={nameRef}
                     className="text-7xl md:text-9xl font-black tracking-tighter mb-6 uppercase leading-[0.8]"
                 >
-                    Arshaq
+                    Arshaq Tk
                 </h1>
                 <p className="hero-reveal text-xl md:text-2xl opacity-70 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
                     Software Developer at <span className="text-blue-500 font-medium">Bridgeon Skillveristy</span> specializing in MERN Stack.

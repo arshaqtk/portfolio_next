@@ -1,7 +1,15 @@
 'use client';
 
-import { GitHubCalendar } from 'react-github-calendar';
 import { motion } from 'framer-motion';
+import dynamic from "next/dynamic";
+
+const GithubCalendarClient = dynamic(
+    () => import("./GithubCalendarClient"),
+    {
+        ssr: false,
+        loading: () => <p className="text-white/40">Loading GitHub activity...</p>,
+    }
+);
 
 export function GithubGraph() {
     return (
@@ -27,19 +35,7 @@ export function GithubGraph() {
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-blue-500/5 blur-[80px] -z-10 group-hover:bg-blue-500/10 transition-colors duration-700" />
 
                     <div className="flex justify-center items-center overflow-x-auto custom-scrollbar">
-                        <GitHubCalendar
-                            username="arshaqtk"
-                            blockSize={12}
-                            blockMargin={4}
-                            fontSize={14}
-                            theme={{
-                                light: ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'],
-                                dark: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'],
-                            }}
-                            style={{
-                                color: 'rgba(255, 255, 255, 0.7)',
-                            }}
-                        />
+                        <GithubCalendarClient />
                     </div>
 
                     <div className="mt-10 flex flex-wrap justify-center gap-8 border-t border-white/5 pt-10">

@@ -123,7 +123,8 @@ export function Contact() {
                         <div className="flex gap-6">
                             <a href="https://github.com/arshaqtk" className="font-bold hover:text-blue-500 transition-colors">GitHub</a>
                             <a href="muhammed-arshaq-tk-b96911269" className="font-bold hover:text-blue-500 transition-colors">LinkedIn</a>
-                            <a href="#" className="font-bold hover:text-blue-500 transition-colors">Twitter</a>
+                            <a href="https://www.instagram.com/arshaq.__2" className="font-bold hover:text-blue-500 transition-colors">Instagram</a>
+                            <a href="https://www.whatsapp.com/+919746843081" className="font-bold hover:text-blue-500 transition-colors">Whatsaapp</a>
                         </div>
                     </div>
                 </div>
