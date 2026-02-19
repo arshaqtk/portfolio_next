@@ -6,14 +6,10 @@ import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-import dynamic from "next/dynamic";
+import { GithubGraph } from "@/components/GithubGraph";
 
-const GithubGraph = dynamic(
-  () => import("@/components/GithubGraph").then(mod => mod.GithubGraph),
-  {
-    ssr: false,
-  }
-)
+
+
 export default function Home() {
   return (
     <main className="relative">
